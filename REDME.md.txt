@@ -1,0 +1,48 @@
+Desafio Técnico - Analista de Qualidade (Suzano)
+Este repositório contém a solução para o desafio técnico da vaga de Analista de Qualidade na Suzano. O foco é a execução de testes de API, automação com Robot Framework, e a definição de uma visão estratégica para testes frontend.
+
+🔍 Visão Geral
+A API analisada é a FakeStore API, com os seguintes endpoints testados:
+
+/products: Gerenciamento de produtos
+
+/carts: Manipulação de carrinhos de compras
+
+/users: Cadastro e manipulação de usuários
+
+/auth/login: Autenticação de usuários
+
+Casos de Teste
+Testes manuais: Mais de 20 casos de teste cobrindo cenários positivos e negativos.
+
+Testes específicos:
+
+Autenticação de usuários
+
+Validação de dados (formatos e valores)
+
+Performance (tempo de resposta)
+
+Segurança (validação de autenticação e autorizações)
+
+🤖 Estrutura de Automação
+A automação foi implementada usando Robot Framework , que fornece uma abordagem simples e extensível para a criação de testes de aceitação.
+
+Como Rodar os Testes
+Instalar dependências:
+
+No diretório raiz do repositório, instale as dependências necessárias:
+
+pip install -r tests/requirements.txt
+Navegar para o diretório de testes:
+
+Vá até a pasta onde os testes estão localizados:
+
+cd tests
+Executar os testes:
+robot testConsulta.robot
+Execute os testes utilizando o comando Robot Framework:
+
+robot tests
+📊 Relatórios e Resultados
+Após a execução dos testes, os relatórios serão gerados automaticamente no formato HTML. Você pode visualizar os resultados diretamente na pasta /results.
