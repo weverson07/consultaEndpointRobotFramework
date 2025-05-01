@@ -1,4 +1,4 @@
-Desafio Técnico - Analista de Qualidade (Suzano)
+
 Este repositório contém a solução para o desafio técnico da vaga de Analista de Qualidade na Suzano. O foco é a execução de testes de API, automação com Robot Framework, e a definição de uma visão estratégica para testes frontend.
 
 🔍 Visão Geral
